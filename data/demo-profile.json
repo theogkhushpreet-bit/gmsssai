@@ -1,0 +1,13 @@
+{
+  "name": "Demo Citizen",
+  "location": "Ludhiana, Punjab",
+  "occupation": "Farmer / Self-employed",
+  "monthlyIncome": 52000,
+  "monthlyExpense": 39000,
+  "savings": 120000,
+  "debt": 85000,
+  "students": 2,
+  "landAcres": 4,
+  "internet": true,
+  "language": ["Hindi", "English"]
+}
