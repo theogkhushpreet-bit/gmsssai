@@ -1,0 +1,26 @@
+[
+  {
+    "id": "myscheme",
+    "name": "myScheme — Government Scheme Discovery",
+    "category": "schemes",
+    "description": "National platform for discovering Central and State/UT government schemes using citizen details and eligibility information.",
+    "tags": ["schemes", "eligibility", "central", "state"],
+    "url": "https://www.myscheme.gov.in/"
+  },
+  {
+    "id": "pm-kisan",
+    "name": "PM-KISAN Samman Nidhi",
+    "category": "agriculture",
+    "description": "Official PM-KISAN portal with scheme guidance, farmer registration, status and eligibility/exclusion information.",
+    "tags": ["farmer", "agriculture", "DBT", "income support"],
+    "url": "https://pmkisan.gov.in/"
+  },
+  {
+    "id": "nsp",
+    "name": "National Scholarship Portal",
+    "category": "education",
+    "description": "Official scholarship portal with scheme listings, student applications, eligibility information and application tracking.",
+    "tags": ["scholarship", "student", "education", "OTR"],
+    "url": "https://scholarships.gov.in/"
+  }
+]

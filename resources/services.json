@@ -1,0 +1,18 @@
+[
+  {
+    "id": "india-services",
+    "name": "National Government Services Portal",
+    "category": "services",
+    "description": "Government service discovery portal covering services from ministries and states/UTs.",
+    "tags": ["citizen services", "government", "state services"],
+    "url": "https://services.india.gov.in/"
+  },
+  {
+    "id": "nsp-public",
+    "name": "NSP Public Dashboard & Help",
+    "category": "education",
+    "description": "Public-facing National Scholarship Portal area for institute discovery, grievance support and scholarship information.",
+    "tags": ["scholarship", "help", "institutes"],
+    "url": "https://scholarships.gov.in/Public"
+  }
+]
