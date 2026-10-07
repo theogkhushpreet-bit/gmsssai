@@ -1,0 +1,18 @@
+{
+  "version": "0.1-demo",
+  "purpose": "Prototype rule schema for Bharat Jeevan AI. These rules must not be treated as official government eligibility decisions.",
+  "rule_fields": ["field", "operator", "value", "reason", "source_id"],
+  "example_rules": [
+    {"field":"land","operator":">","value":0,"reason":"May indicate that agriculture-related resources are relevant.","source_id":"pm-kisan"},
+    {"field":"students.length","operator":">","value":0,"reason":"May indicate that education and scholarship resources are relevant.","source_id":"nsp"},
+    {"field":"income","operator":"<","value":60000,"reason":"May warrant checking household-support schemes in the official scheme discovery portal.","source_id":"myscheme"},
+    {"field":"internet","operator":"==","value":true,"reason":"Digital-service workflows may be accessible.","source_id":"india-services"}
+  ],
+  "production_requirements": [
+    "Use current official scheme rules and source dates.",
+    "Store the official source URL for every rule.",
+    "Never convert a prototype match into a guaranteed eligibility statement.",
+    "Show missing information that prevents a confident match.",
+    "Keep consent, security, audit logging and data minimization outside the rule engine itself."
+  ]
+}
